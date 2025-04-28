@@ -150,22 +150,34 @@
     height: 8vh;
     background-color: #dcd9d9;
     width: 100%;
+    text-align: left;
+    align-items: center;
   }
   .tags-list{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-  }
-  .tags-list ul{
-    list-style: none;
-    display: flex;
     flex-wrap: wrap;
-    gap:2%;
-    align-items: center;
+    width: 95%;
+    gap: 3%;
   }
-  .tags-list ul li{
+
+  .tags-list a span{
+    background-color: black;
+    color: white;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    font-size: larger;
+  }
+  .tags-list a{
+    text-decoration: none;
     background-color: #dcd9d9;
+    color: black;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    margin-top: 5%;
   }
   /* artical end */
   
